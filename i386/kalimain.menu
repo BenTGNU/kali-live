@@ -1,0 +1,8 @@
+LABEL KALILIVE32OL
+MENU LABEL ^Kali 2018.4 32bits - Live
+KERNEL er/plugins/kali-live/i386/linux
+INITRD er/plugins/kali-live/i386/initrd.gz
+APPEND vga=788 boot=live components fetch=http://10.0.0.1/kali-live/i386/filesystem.squashfs
+TEXT HELP
+                 Live Kali 2018.4 32bits.
+ENDTEXT

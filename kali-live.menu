@@ -1,0 +1,11 @@
+MENU BEGIN KALIINST
+MENU TITLE Kali 2018.4
+MENU LABEL ^Kali 2018.4
+MENU BACKGROUND er/plugins/kali/kali.png
+
+MENU INCLUDE er/plugins/kali-live/i386/kali-livemain.menu
+MENU INCLUDE er/plugins/kali-live/amd64/kali-livemain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

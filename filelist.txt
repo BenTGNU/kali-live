@@ -1,0 +1,9 @@
+.:
+kalimain.menu
+kali.menu
+kali.png
+filelist.txt
+i386/initrd.img
+amd64/initrd.img
+i386/vmlinuz
+amd64/vmlinuz
