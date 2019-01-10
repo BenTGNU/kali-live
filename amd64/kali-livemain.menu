@@ -2,7 +2,7 @@ LABEL KALILIVE64OL
 MENU LABEL ^Kali 2018.4 64bits - Live
 KERNEL er/plugins/kali-live/amd64/vmlinuz
 INITRD er/plugins/kali-live/amd64/initrd.img
-APPEND vga=788 boot=live components fetch=http://10.0.0.1/kali-live/amd64/filesystem.squashfs
+APPEND vga=788 boot=live components fetch=http://10.0.0.1/er/kali-live/amd64/filesystem.squashfs
 TEXT HELP
                  Live Kali 2018.4 64bits.
 ENDTEXT
